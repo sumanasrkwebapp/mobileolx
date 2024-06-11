@@ -1,0 +1,64 @@
+
+.modal-content header.overlay{
+    position: relative;
+}
+.modal-content .slidePanel-inner{
+    padding-top: 16px;
+}
+.app-contacts .slidePanel-actions {
+    position: absolute;
+}
+.modal-content .preloader{
+    width: 800px;
+    height: 640px;
+}
+.modal-open .modal {
+    background: rgba(204, 204, 204, 0.4);
+}
+.modal-content .slidePanel-actions{
+    padding: 0px 40px;
+}
+.form-inline{
+    display: block;
+}
+div.dataTables_paginate ul.pagination > li.paginate_button {
+    margin: 0 4px;
+}
+.tab-page .nav-tabs {
+    background: linear-gradient(60deg, #ab47bc, #8e24aa);
+    border-radius: 3px;
+    padding: 15px;
+}
+.tab-page .nav-tabs > li > a {
+    color: #fff;
+    font-weight: 500;
+    border: 0;
+    border-radius: 2px !important;
+    line-height: 40px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 15px;
+}
+.tab-page .nav-tabs > li > a.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.3s background-color 0.2s;
+    color: #fff;
+}
+.tab-page .nav-tabs > li > a:focus:after, #markad-tbs .nav-tabs > li > a:hover:after {
+    border-bottom: none;
+}
+.tab-page .nav-tabs > li > a > i {
+    font-size: 20px;
+    /* width: 16px; */
+    margin: 0 4px 0 0;
+    line-height: 40px;
+    vertical-align: bottom;
+    height: 20px;
+}
+
+@media (min-width: 576px){
+.modal-dialog {
+    max-width: 800px;
+    margin: 1.75rem auto;
+}
+}
